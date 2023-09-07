@@ -4,7 +4,7 @@
 //go:build freebsd && cgo
 // +build freebsd,cgo
 
-package mount // import "github.com/ory/dockertest/v3/docker/pkg/mount"
+package mount // import "github.com/z9905080/dockertest/v3/docker/pkg/mount"
 
 /*
 #include <sys/mount.h>

@@ -4,7 +4,7 @@
 //go:build freebsd
 // +build freebsd
 
-package system // import "github.com/ory/dockertest/v3/docker/pkg/system"
+package system // import "github.com/z9905080/dockertest/v3/docker/pkg/system"
 
 import (
 	"golang.org/x/sys/unix"

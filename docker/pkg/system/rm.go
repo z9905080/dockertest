@@ -1,7 +1,7 @@
 // Copyright © 2023 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package system // import "github.com/ory/dockertest/v3/docker/pkg/system"
+package system // import "github.com/z9905080/dockertest/v3/docker/pkg/system"
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ory/dockertest/v3/docker/pkg/mount"
+	"github.com/z9905080/dockertest/v3/docker/pkg/mount"
 )
 
 // EnsureRemoveAll wraps `os.RemoveAll` to check for specific errors that can

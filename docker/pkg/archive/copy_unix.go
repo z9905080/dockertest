@@ -4,7 +4,7 @@
 //go:build !windows
 // +build !windows
 
-package archive // import "github.com/ory/dockertest/v3/docker/pkg/archive"
+package archive // import "github.com/z9905080/dockertest/v3/docker/pkg/archive"
 
 import (
 	"path/filepath"

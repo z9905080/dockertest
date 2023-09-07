@@ -4,13 +4,13 @@
 //go:build !windows
 // +build !windows
 
-package archive // import "github.com/ory/dockertest/v3/docker/pkg/archive"
+package archive // import "github.com/z9905080/dockertest/v3/docker/pkg/archive"
 
 import (
 	"os"
 	"syscall"
 
-	"github.com/ory/dockertest/v3/docker/pkg/system"
+	"github.com/z9905080/dockertest/v3/docker/pkg/system"
 	"golang.org/x/sys/unix"
 )
 

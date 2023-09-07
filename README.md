@@ -36,19 +36,19 @@ commands for spinning up Docker containers and using them for your tests.
 ## Installing and using Dockertest
 
 Using Dockertest is straightforward and simple. Check the
-[releases tab](https://github.com/ory/dockertest/releases) for available
+[releases tab](https://github.com/z9905080/dockertest/releases) for available
 releases.
 
 To install dockertest, run
 
 ```
-go get -u github.com/ory/dockertest/v3
+go get -u github.com/z9905080/dockertest/v3
 ```
 
 or
 
 ```
-dep ensure -add github.com/ory/dockertest@v3.x.y
+dep ensure -add github.com/z9905080/dockertest@v3.x.y
 ```
 
 ### Using Dockertest
@@ -64,7 +64,7 @@ import (
 	"testing"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/ory/dockertest/v3"
+	"github.com/z9905080/dockertest/v3"
 )
 
 var db *sql.DB
