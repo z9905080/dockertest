@@ -1,7 +1,7 @@
 // Copyright © 2023 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package types // import "github.com/ory/dockertest/v3/docker/types"
+package types // import "github.com/z9905080/dockertest/v3/docker/types"
 
 import (
 	"errors"
@@ -12,11 +12,11 @@ import (
 	"time"
 
 	"github.com/docker/go-connections/nat"
-	"github.com/ory/dockertest/v3/docker/types/container"
-	"github.com/ory/dockertest/v3/docker/types/filters"
-	"github.com/ory/dockertest/v3/docker/types/mount"
-	"github.com/ory/dockertest/v3/docker/types/network"
-	"github.com/ory/dockertest/v3/docker/types/registry"
+	"github.com/z9905080/dockertest/v3/docker/types/container"
+	"github.com/z9905080/dockertest/v3/docker/types/filters"
+	"github.com/z9905080/dockertest/v3/docker/types/mount"
+	"github.com/z9905080/dockertest/v3/docker/types/network"
+	"github.com/z9905080/dockertest/v3/docker/types/registry"
 )
 
 // RootFS returns Image's RootFS description including the layer IDs.

@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Package v1p20 provides specific API types for the API version 1, patch 20.
-package v1p20 // import "github.com/ory/dockertest/v3/docker/types/versions/v1p20"
+package v1p20 // import "github.com/z9905080/dockertest/v3/docker/types/versions/v1p20"
 
 import (
 	"github.com/docker/go-connections/nat"
-	"github.com/ory/dockertest/v3/docker/types"
-	"github.com/ory/dockertest/v3/docker/types/container"
+	"github.com/z9905080/dockertest/v3/docker/types"
+	"github.com/z9905080/dockertest/v3/docker/types/container"
 )
 
 // ContainerJSON is a backcompatibility struct for the API 1.20

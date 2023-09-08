@@ -4,7 +4,7 @@
 //go:build linux || freebsd
 // +build linux freebsd
 
-package fileutils // import "github.com/ory/dockertest/v3/docker/pkg/fileutils"
+package fileutils // import "github.com/z9905080/dockertest/v3/docker/pkg/fileutils"
 
 import (
 	"fmt"

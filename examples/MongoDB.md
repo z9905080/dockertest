@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ory/dockertest/v3"
-	"github.com/ory/dockertest/v3/docker"
+	"github.com/z9905080/dockertest/v3"
+	"github.com/z9905080/dockertest/v3/docker"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

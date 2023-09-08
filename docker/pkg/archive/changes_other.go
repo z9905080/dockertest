@@ -4,7 +4,7 @@
 //go:build !linux
 // +build !linux
 
-package archive // import "github.com/ory/dockertest/v3/docker/pkg/archive"
+package archive // import "github.com/z9905080/dockertest/v3/docker/pkg/archive"
 
 import (
 	"fmt"
@@ -13,7 +13,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ory/dockertest/v3/docker/pkg/system"
+	"github.com/z9905080/dockertest/v3/docker/pkg/system"
 )
 
 func collectFileInfoForChanges(oldDir, newDir string) (*FileInfo, *FileInfo, error) {

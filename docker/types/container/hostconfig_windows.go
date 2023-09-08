@@ -1,7 +1,7 @@
 // Copyright © 2023 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package container // import "github.com/ory/dockertest/v3/docker/types/container"
+package container // import "github.com/z9905080/dockertest/v3/docker/types/container"
 
 // IsBridge indicates whether container uses the bridge network stack
 // in windows it is given the name NAT

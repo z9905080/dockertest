@@ -1,7 +1,7 @@
 // Copyright © 2023 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package jsonmessage // import "github.com/ory/dockertest/v3/docker/pkg/jsonmessage"
+package jsonmessage // import "github.com/z9905080/dockertest/v3/docker/pkg/jsonmessage"
 
 import (
 	"encoding/json"

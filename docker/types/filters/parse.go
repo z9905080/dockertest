@@ -5,7 +5,7 @@
 Package filters provides tools for encoding a mapping of keys to a set of
 multiple values.
 */
-package filters // import "github.com/ory/dockertest/v3/docker/types/filters"
+package filters // import "github.com/z9905080/dockertest/v3/docker/types/filters"
 
 import (
 	"encoding/json"
@@ -13,7 +13,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ory/dockertest/v3/docker/types/versions"
+	"github.com/z9905080/dockertest/v3/docker/types/versions"
 )
 
 // Args stores a mapping of keys to a set of multiple values.

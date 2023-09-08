@@ -5,7 +5,7 @@
 // in Windows, which are expected to be prepended with `\\?\` and followed by either
 // a drive letter, a UNC server\share, or a volume identifier.
 
-package longpath // import "github.com/ory/dockertest/v3/docker/pkg/longpath"
+package longpath // import "github.com/z9905080/dockertest/v3/docker/pkg/longpath"
 
 import (
 	"strings"

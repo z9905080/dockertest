@@ -1,7 +1,7 @@
 // Copyright © 2023 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package types // import "github.com/ory/dockertest/v3/docker/types"
+package types // import "github.com/z9905080/dockertest/v3/docker/types"
 
 // AuthConfig contains authorization information for connecting to a Registry
 type AuthConfig struct {

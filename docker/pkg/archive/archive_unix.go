@@ -15,8 +15,8 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/ory/dockertest/v3/docker/pkg/system"
 	"github.com/z9905080/dockertest/v3/docker/pkg/idtools"
+	"github.com/z9905080/dockertest/v3/docker/pkg/system"
 	"golang.org/x/sys/unix"
 )
 
