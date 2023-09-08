@@ -6,6 +6,9 @@ package dockertest
 import (
 	"errors"
 	"fmt"
+	"github.com/cenkalti/backoff/v4"
+	dc "github.com/z9905080/dockertest/v3/docker"
+	options "github.com/z9905080/dockertest/v3/docker/opts"
 	"io"
 	"net"
 	"os"
@@ -13,9 +16,6 @@ import (
 	"runtime"
 	"strings"
 	"time"
-
-	dc "github.com/z9905080/dockertest/v3/docker"
-	options "github.com/z9905080/dockertest/v3/docker/opts"
 )
 
 var (
